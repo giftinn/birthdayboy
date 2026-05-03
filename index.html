@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>For You</title>
+<title>Birthday Boy!</title>
 
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Cormorant+Garamond:wght@400;500&display=swap" rel="stylesheet">
@@ -262,8 +262,8 @@ pointer-events:none;
 
 <!-- welcome -->
 <section class="card active">
-<h1>Special gift</h1>
-<p>For someone i love the most. <br>But you have to unlock it.</p>
+<h1>Hallow</h1>
+<p>I made this special gift for you.<br>But you have to unlock it.</p>
 <button onclick="next()">Unlock</button>
 </section>
 
@@ -304,7 +304,7 @@ Points: <span id="score">0</span> / 3
 <!-- final -->
 <section class="card">
 
-<h1>Another Month of Us</h1>
+<h1>Between Us in Bandung</h1>
 
 <div class="lovebox">
 <div class="timer-title">TIME WITH YOU</div>
@@ -358,7 +358,7 @@ if(page===2)loadQuestion();
 ================================================= */
 
 let pinInput = '';
-const correctPin = '1402';
+const correctPin = '0510';
 const pinDisplay = document.getElementById("pin");
 
 function renderDots(){
@@ -406,9 +406,9 @@ function checkPin(){
 ================================================= */
 
 const questions=[
-{q:"When did we first meet? ", options:["14 February"," 24 January","22 January"],correct:2},
-{q:"Who loves the most?", options:["You","100% me","Both"],correct:2},
-{q:"What’s on my mind most of the time?", options:["Anime","Someone else","You (my pretty girlfriend"],correct:2}
+{q:"Kapan kamu ulang tahun?", options:["Mei","January","April"],correct:0},
+{q:"Siapa yang lagi bertambah usia?", options:["Kita","Aku","Bahlil"],correct:1},
+{q:"Hari apakah sekarang?", options:["Hari kartini","Hari buruh","Hari ultah aku"],correct:2}
 ];
 
 let currentQ = 0;
@@ -473,7 +473,7 @@ function checkAnswer(i,btn){
 
 function startTimer(){
 
-    const start = new Date("2026-01-22T00:00:00");
+    const start = new Date("2010-05-04T00:00:00");
 
     setInterval(()=>{
 
@@ -507,11 +507,14 @@ function revealMemory(el){
     `;
 
     const text = `
-      Even all the beautiful words in the world still wouldn’t be enough to explain how much you mean to me. Yet here you are, right in my life, and somehow that alone says everything. I admire the little things about you—the way you care about me, the way you talk, and how your eyes light up when you’re excited, especially when it’s with me. 
+      haloowww, happy birthday my lovely boyfriend. semoga aku jadi pertama yang ngucapin selamat ulang tahun ke kamu hehehe. pertama, makasih ya udaa mau buka minigift sederharna ini dari aku dan semoga kamu juga suka sama surprise kecil-kecilan ini.
+      ciee hari ini udah makin tua ajaa wkwk, jujur aku seneng banget karena aku bisa nemenin kamu sampai didetik ini. maaf yaa mungkin surpisenya terlalu sederhana kaya ginii, hope u like it.
 
-      With you, I’ve found a kind of peace I didn’t even know I was looking for. It’s a kind of comfort I didn’t know I needed until I found it in you. It’s something I can’t find anywhere else, no matter how hard I try. Every moment with you, no matter how small, feels important and meaningful.
-      
-      Thank you for being here with me, for every moment, every word, and every feeling we’ve shared. Happy 2nd mensiversary, sayangku. I’m so grateful for you, today and always. ❤️  
+      di ulang tahun ini kamu kali ini, aku berharap kamu dijauhkan dari hal-hal yang buruk, semua urusan kamu yang mungkin belum selesai semoga bisa cepet selesai dan ketemu solusinya. aku juga berdoa semoga di ulang tahun kamu yang sekarang ini kamu dilimpahin kebahagiaan, dijauhin dari yang bikin sedih-sedih. aku juga berdoa semua harapan atau wishes kamu terwujud satu persatu.
+
+      disisi lain, aku juga berdoa kamu jadi pribadi yang makin dewasa, terus makin bijak juga waktu ngambil keputusan. aku juga berharap kamu bisa dewasa di hubungan kita ini, jadi bisa ngarahin aku waktu aku ngelakuin kesalahan. aku berharap kamu makin sayang juga sama aku, makin diluasin sabarnya waktu ngadepin aku, dan makin dewasa kamu makin besar juga rasa sayangna buat aku. dan semoga semua hal yang baik datang ke kamu silih berganti.
+
+      mungkin itu aja sih yang mau aku sampein ke kamu, intinya aku selalu mendoakan yang terbaik buat kamu, dan jalan hidup kamu. and then, happy birthday to my lovely boyfriend.. may god bless you and wishing you all the best.
       `;
 
     const paragraphs = text.trim().split(/\n\s*\n/);
